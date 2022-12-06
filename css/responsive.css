@@ -11,6 +11,9 @@
   .mobile-arrow {
     display: none;
   }
+  .menu-desktop {
+    display: initial;
+  }
   .menu-desktop ul {
     display: flex;
     flex-wrap: wrap;
