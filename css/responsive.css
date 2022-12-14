@@ -1,3 +1,9 @@
+@media (min-width: 500px) {
+  .banner {
+    align-items: center;
+  }
+}
+
 @media (min-width: 720px) {
   header {
     width: 100%;
@@ -21,7 +27,8 @@
     align-items: center;
   }
   .menu-desktop ul li a {
-    color: #9767a9;
+    /* color: #9767a9; */
+    color: red;
     font-size: 1rem;
     font-weight: 500;
     padding: 5px;
@@ -33,13 +40,17 @@
   .rs {
     display: none;
   }
+
+  .logo {
+    width: initial;
+  }
+
   .logo img {
     width: 111px;
     height: 55px;
   }
   .banner {
     background-image: url("./../img/bg.avif");
-    align-items: end;
   }
 
   .banner-content h2 {
